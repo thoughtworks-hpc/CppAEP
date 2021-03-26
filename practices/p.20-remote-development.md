@@ -1,4 +1,4 @@
-# 远端开发实践（Remote Development）
+# 远端开发（Remote Development）
 
 ## 价值
 
