@@ -1,5 +1,4 @@
 
-
 # Conan 简介 
 
 Conan 是一个开源免费跨平台的 c++ 依赖/包管理器，能减轻 C++开发者的负担，有助于持续集成在 C++ 工程实践中的落地。 Conan 是经典的 C/S 架构，开发者可以将包托管于自己的私服或者官方推荐的 [CONANCENTER](https://conan.io/center/)，   [JFrog Bintray](https://bintray.com/) 。
@@ -187,7 +186,7 @@ class HelloConan(ConanFile):
         cmake = CMake(self)
         cmake.configure(source_folder="hello")
         cmake.build()
-		# 打包头文件/库文件
+	# 打包头文件/库文件
     def package(self):
         self.copy("*.h", dst="include", src="hello")
         self.copy("*hello.lib", dst="lib", keep_path=False)
