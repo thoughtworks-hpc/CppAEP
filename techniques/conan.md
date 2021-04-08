@@ -164,7 +164,7 @@ A包依赖 1.1.0版本的 C包，B包依赖1.2.0版本，此时 `conan install` 
 from conans import ConanFile, CMake, tools
 
 class HelloConan(ConanFile):
-  	# 定义 conan 包名的前两个参数，包名和版本号
+    # 定义 conan 包名的前两个参数，包名和版本号
     name = "Hello"
     version = "0.0.1"
     license = "MIT"
